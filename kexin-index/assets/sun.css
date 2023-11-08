@@ -1,0 +1,80 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 18px;
+  color: black;
+}
+
+/* Here is my website name and avatar */
+.top {
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.top span {
+  margin-left: 20px;
+  font-family: 'Lobster', cursive;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* try to use figure and figcaption */
+/* figure{
+  border: 1px solid black;
+  padding: 5px;
+}
+figcaption {
+  background-color: #fff;
+  text-align: center;
+  font-style: italic;
+}
+.bear {
+  width: 100%;
+} */
+
+/* header */
+h1 {
+  font-size: 1.5em;
+  color: rgb(104, 30, 153);
+}
+
+.navigation-content {
+  color: rgb(104, 30, 153);
+  font-size: 1.2em;
+}
+
+/* personal information-career goals */
+h2 {
+  color: rgb(77, 25, 122);
+}
+
+p {
+  text-align: left;
+}
+
+/* footer */
+#footer {
+  height: 4rem;
+  line-height: 4rem;
+  color: white;
+  text-align: center;
+  background-color: rgba(87, 23, 137, 0.6) !important;
+  /* try to use hsla */
+  /* background-color: hsla(60, 50%, 60%, 0.7) !important; */
+}
+
+
+
+
+
+
+
